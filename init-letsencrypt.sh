@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains=(sbox.am www.sbox.am)
+domains=(codelove.space www.codelove.space)
 rsa_key_size=4096
 data_path="./data/certbot"
 email="dan.daniels110@gmail.com" # Adding a valid address is strongly recommended

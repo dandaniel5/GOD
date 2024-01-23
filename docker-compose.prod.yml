@@ -30,20 +30,20 @@ services:
     networks:
       - my_network
 
-  next-app:
-    container_name: next-app
-    hostname: next-app
-    build:
-      context: ./attempt
-      dockerfile: dev.Dockerfile
-
-    restart: always
-    ports:
-      - "3000:3000"
-    networks:
-      - my_network
-    depends_on:
-      - api
+#  next-app:
+#    container_name: next-app
+#    hostname: next-app
+#    build:
+#      context: ./attempt
+#      dockerfile: dev.Dockerfile
+#
+#    restart: always
+#    ports:
+#      - "3000:3000"
+#    networks:
+#      - my_network
+#    depends_on:
+#      - api
 
   mongo:
     container_name: mongo
