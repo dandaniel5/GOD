@@ -70,7 +70,7 @@ services:
     networks:
       - my_network
     depends_on:
-      - mongo3
+      - mongo
 
 networks:
   my_network:
