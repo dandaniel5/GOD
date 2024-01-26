@@ -1,5 +1,5 @@
 # Use an appropriate base image for ARM64, for example:
-FROM arm64v8/python:3.11
+FROM python:3.11
 
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1

@@ -35,7 +35,7 @@ services:
     hostname: next-app
     build:
       context: ./attempt
-      dockerfile: dev.Dockerfile
+      dockerfile: dev.dockerfile
 
     restart: always
     ports:
